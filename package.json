@@ -1,0 +1,17 @@
+{
+  "name": "js-obj-mod",
+  "version": "1.0.0",
+  "description": "Explains the JS object model",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leifll/js-obj-mod"
+  },
+  "keywords": [],
+  "author": "Leif Lindbäck",
+  "license": "MIT",
+  "dependencies": {}
+}
