@@ -3,7 +3,9 @@
 const util = require('util');
 
 /* Mina föreläsningsanteckningar finns i ~/pCloudDrive/BACKUPS_DONT_TOUCH/
-id1354-bup190213-final2018/lectures/js-language/js-language.pdf.*/
+   id1354-bup190213-final2018/lectures/js-language/js-language.pdf.*/
+
+/* Kolla i ECMA-script specen, tex kap 20. Den finns på https://tc39.es/ecma262/ */
 
 /**
  * Constructor function for a Person object.
