@@ -13,7 +13,9 @@
   "keywords": [],
   "author": "Leif Lindbäck",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "4.17.21"
+  },
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-google": "^0.13.0",
