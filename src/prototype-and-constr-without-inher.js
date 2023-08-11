@@ -48,7 +48,8 @@ https://timothygu.me/es-howto/ som båda förklarar specen.
 // a constructor that creates an empty object.
 
 // 2. The Function constructor is %Function% (20.2.1). The 'Function constructor' is a
-// function that's used to create other functions. (20.2.1.1)
+// function that can be used to create other functions, with the statement
+// 'Function(...parameterArgs, bodyArg)'. (20.2.1.1)
 
 // 3. The prototype of an object is set to the value of the prototype property (not of
 // the [[prototype]] internal slot) of that object's constructor (4.4.7 and 4.4.8). See also
@@ -133,8 +134,8 @@ const logObj = (name, obj) => {
  * @param {number} age - The age of the newly constructed Person object.
  */
 function Person(firstName, age) { // Person is a function object.
-  firstName = firstName;
-  age = age;
+  this.firstName = firstName;
+  this.age = age;
 };
 
 const myMother = new Person('Fia', 48);

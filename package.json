@@ -4,7 +4,8 @@
   "description": "Explains the JS object model",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/prototype-and-constr-without-inher.js",
+    "new-oper": "node src/new-operator.js"
   },
   "repository": {
     "type": "git",
