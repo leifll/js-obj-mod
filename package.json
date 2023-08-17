@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/prototype-and-constr-without-inher.js",
-    "new-oper": "node src/new-operator.js"
+    "prot-constr": "node src/prototype-and-constr-without-inher.js",
+    "new-oper": "node src/new-operator.js",
+    "inher": "node src/inherit.js"
   },
   "repository": {
     "type": "git",

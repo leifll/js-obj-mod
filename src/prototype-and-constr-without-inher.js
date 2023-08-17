@@ -92,6 +92,7 @@ console.log(Object.getPrototypeOf(Object.getPrototypeOf(Object.getPrototypeOf(Ob
 
 // 10, 11, 12 => {}.[[prototype]] = [Object: null prototype] {}
 console.log(Object.getPrototypeOf({})); // Prints [Object: null prototype] {}
+console.log(Object.getPrototypeOf({}) === Object.prototype); // Prints true
 
 // 13. The property 'constructor' of the property 'prototype' of a function contains a reference to
 // the function itself. This means that, if 'a' is a function, a.prototype.constructor === a. The
